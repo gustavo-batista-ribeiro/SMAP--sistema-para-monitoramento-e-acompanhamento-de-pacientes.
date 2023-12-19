@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smap</title>
+    <link rel="stylesheet" href="./teste.css">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Smap- Sistema de monitoramento e acompanhamento de pacientes</h1>
+
+            </div>
+        </section>    </header>
+    <main>
+        <section id="agenda">
+            <h2>Agenda</h2>
+            <!-- Aqui você pode adicionar uma lista de eventos/agendamentos -->
+            <ul id="eventos">
+                <!-- Exemplo de um evento na agenda -->
+                <li>
+                    <strong>Data:</strong> 10 de setembro de 2023
+                    <br>
+                    <strong>Horário:</strong> 14:00 - 15:00
+                    <br>
+                    <strong>Descrição:</strong> consulta com o Dr. João Gabriel 
+                </li>
+            </ul>
+        </section>
+        <section id="relatorio">
+            <h2>Relatório</h2>
+            <!-- Formulário para criar um relatório -->
+            <form id="formulario-relatorio">
+                <label for="titulo">Título do Relatório:</label>
+                <input type="text" id="titulo" name="titulo" max="20" required>
+                
+                <label for="conteudo">Conteúdo do Relatório:</label>
+                <textarea id="conteudo" name="conteudo" rows="6" required></textarea>
+                
+                <button type="submit">Salvar Relatório</button>
+            </form>
+        </section>
+        <section id="calendario">
+            <h2>Calendário</h2>
+            <!-- Aqui você pode adicionar um calendário interativo -->
+            <div id="calendario-iframe">
+                <!-- Você pode incorporar um serviço de calendário, como o Google Calendar, aqui -->
+                <!-- Por exemplo, usando um iframe -->
+                <iframe src="https://calendar.google.com/calendar/embed?src=seu-email%40exemplo.com&ctz=America%2FSao_Paulo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </main>
+    <footer>
+        &copy; SMAP(Sistema de monitoramento e acompanhamento de pacientes) - é um sistema que visa ajudar no acompanhamento e monitoramento de pacientes 
+    </footer> 
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
